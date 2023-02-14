@@ -25,3 +25,6 @@ def generateArrays(num: int):
 
 print(generateArrays(1))
 print(generateArrays(4))
+print(generateArrays(0))
+print(generateArrays(-4))
+print(generateArrays(6))
