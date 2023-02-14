@@ -21,15 +21,15 @@
 alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
 
-def getColumnNumber(name: str) -> int:
+def get_column_number(name: str) -> int:
     col_num = 0
     for c in name:
         col_num = col_num * len(alphabet) + alphabet.index(c) + 1
     return col_num
 
-print(getColumnNumber("A"))
-print(getColumnNumber("BA"))
-print(getColumnNumber("BZ"))
-print(getColumnNumber("ZZ"))
-print(getColumnNumber("ICD"))
-print(getColumnNumber("AAAB"))
+print(get_column_number("A"))
+print(get_column_number("BA"))
+print(get_column_number("BZ"))
+print(get_column_number("ZZ"))
+print(get_column_number("ICD"))
+print(get_column_number("AAAB"))
