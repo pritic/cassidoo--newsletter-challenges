@@ -2,8 +2,8 @@
 # 1, 2, 3, 4, 5, 6, 7, 8, or 9 in your code. Get creative!
 
 
-def printDigits():
+def print_digits():
     for i in range(ord('e')):
         print(i)
 
-printDigits()
+print_digits()

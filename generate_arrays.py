@@ -3,14 +3,14 @@
 
 # Example:
 
-# > generateArrays(4)
+# > generate_arrays(4)
 # > [[1], [1, 2], [1, 2, 3], [1, 2, 3, 4]]
 
-# > generateArrays(1)
+# > generate_arrays(1)
 # > [[1]]
 
 
-def generateArrays(num: int):
+def generate_arrays(num: int):
     result = [[1]]
     if num == 1:
         return result
@@ -23,8 +23,8 @@ def generateArrays(num: int):
     return result
 
 
-print(generateArrays(1))
-print(generateArrays(4))
-print(generateArrays(0))
-print(generateArrays(-4))
-print(generateArrays(6))
+print(generate_arrays(1))
+print(generate_arrays(4))
+print(generate_arrays(0))
+print(generate_arrays(-4))
+print(generate_arrays(6))
